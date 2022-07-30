@@ -1,0 +1,323 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(./img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+    height: 580px;
+    position: relative;
+    text-align: center;
+}
+.header{
+    margin: 10px 10px 0px 10px;
+    padding: 20px 10px 0px 10px;
+    position: relative;
+    display: block;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+    text-align: center;
+}
+.container span{
+    font-size: 20px;
+    line-height: 20px;
+    display: block;
+    font-weight: 400;
+    font-style: italic;
+    color: #719dab;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    font-family: 'Alegreya SC', Georgia, serif;
+}
+.container h1{
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    position: relative;
+    font-weight: 300;
+    color: #498ea5;
+    padding: 5px 0px;
+    text-shadow: 1px 1px 1px rgb(255 255 255 / 70%);
+}
+.container h1 span{
+    font-weight: 700;
+}
+.container .header p{
+    font-style: italic;
+    color: #aaa;
+    text-shadow: 1px 1px 1px rgb(255 255 255 / 70%);
+}
+
+.Activate{
+    background: #6fafc4;
+    color: #fff;
+    opacity: 0.6;
+    display: inline-block;
+    margin: 5px auto 30px auto;
+    border-radius: 4px;
+    padding: 0px 15px;
+    height: 30px;
+    line-height: 30px;
+    width: 160px;
+    font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 30%);
+    border: 1px solid #377a90;
+    cursor: pointer;
+    /* -webkit-animation-direction: initial; */
+}
+input.fire-check{
+    width: 160px;
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    height: 35px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 100;
+}
+section{
+    display: block;
+}
+.content-1{
+    width: 360px;
+    position: relative;
+    margin: 0 auto 20px auto;
+    padding: 25px 15px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%), inset 0 1px 0 rgb(255 255 255 / 60%);
+    opacity: 0;
+    cursor: default;
+    display: none;
+    background: #ffe691;
+    border: 1px solid #f6db7b;
+    transition: all 0.9 ease;
+    animation: remove 5s linear forwards;
+}
+.content-1:before{
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 1);
+    margin-top: -17px;
+    top: 50%;
+    left: 20px;
+    width: 30px;
+    content: 'i';
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+}
+.content-1 p{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 10px 0 60px;
+    text-shadow: 0 1px 1px rgb(255 255 255 / 60%);
+    color: #7d5912;
+}
+.progress{
+    width: 0;
+    height: 4px;
+    background: rgba(255,255,255,0.3);
+    position: absolute;
+    bottom: 5px;
+    left: 2%;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%), 0 -1px 0 rgb(255 255 255 / 60%);
+    animation: width 5s linear;
+}
+.progress2{
+    width: 0;
+    height: 4px;
+    background: rgba(255,255,255,0.3);
+    position: absolute;
+    bottom: 5px;
+    left: 2%;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%), 0 -1px 0 rgb(255 255 255 / 60%);
+    animation: width 7s linear;
+}
+.progress3{
+    width: 0;
+    height: 4px;
+    background: rgba(255,255,255,0.3);
+    position: absolute;
+    bottom: 5px;
+    left: 2%;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%), 0 -1px 0 rgb(255 255 255 / 60%);
+    animation: width 9s linear;
+}
+.content-2{
+    width: 360px;
+    position: relative;
+    margin: 0 auto 20px auto;
+    padding: 25px 15px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%), inset 0 1px 0 rgb(255 255 255 / 60%);
+    opacity: 0;
+    cursor: default;
+    display: none;
+    background: #99ffb1;
+    border: 1px solid #7ce294;
+    transition: all 0.9s ease;
+    animation: remove 7s linear forwards;
+    animation-delay: 0.2s;
+}
+.content-2 p{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 10px 0 60px;
+    text-shadow: 0 1px 1px rgb(255 255 255 / 60%);
+    color: #7d5912;
+}
+.content-2:before{
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 1);
+    margin-top: -17px;
+    top: 50%;
+    left: 20px;
+    width: 30px;
+    content: 'i';
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+}
+.content-3{
+    width: 360px;
+    position: relative;
+    margin: 0 auto 20px auto;
+    padding: 25px 15px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%), inset 0 1px 0 rgb(255 255 255 / 60%);
+    opacity: 0;
+    cursor: default;
+    display: none;
+    background: #99ffb1;
+    border: 1px solid #7ce294;
+    transition: all 0.9s ease;
+    animation: remove 9s linear forwards;
+    animation-delay: 0.4s;
+}
+.content-3:before{
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 1);
+    margin-top: -17px;
+    top: 50%;
+    left: 20px;
+    width: 30px;
+    content: 'i';
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+}
+.content-3 p{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 10px 0 60px;
+    text-shadow: 0 1px 1px rgb(255 255 255 / 60%);
+    color: #69288b;
+}
+
+input.fire-check:checked ~ section .content-1{
+    display: block;
+}
+input.fire-check:checked ~ section .content-2{
+    display: block;
+}
+input.fire-check:checked ~ section .content-3{
+    display: block;
+}
+input.fire-check:checked ~ section .content-1 .progress{
+    background: red;
+}
+input.fire-check:checked ~ section .content-2 .progress2{
+    background: red;
+}
+input.fire-check:checked ~ section .content-3 .progress3{
+    background: red;
+}
+
+@keyframes remove{
+    0%{
+        transform: translateY(-0%);
+    opacity: 1;
+    }
+    50%{
+        transform: translateY(-0%);
+    opacity: 1;
+    }
+    75%{
+        transform: translateY(-0%);
+        opacity: 1;
+    }
+    95%{
+        transform: translateY(-0%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-50%);
+      opacity: 0;
+    }
+    
+}
+@keyframes width{
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 25%;
+    }
+    50%{
+        width: 50%;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        width: 383px;
+    }
+}
+@keyframes opacity {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+
+    }
+    75%{
+        opacity: 0.5;
+    }
+    85%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+}
+}

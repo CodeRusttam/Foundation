@@ -1,0 +1,51 @@
+@media screen and (min-width: 200px) and (max-width:600px){
+  .navbar{
+      width: 100%;
+  }
+  .section__mairn__container{
+      width: 100%;
+  }
+  .section__main__container h1{
+      font-size: 3.7rem;
+  }
+  .btn{
+      padding: 0.7rem 1.1rem;
+  }
+  .container__text{
+    padding: 30px;
+  }
+  #projects .container{
+      display: block;
+  }
+  .container__info__img{
+      padding: 2rem;
+  }
+  .container__info__text{
+      width: 100%;
+      padding:2rem;
+      border: 0px;
+  }
+  .text{
+      padding: 4rem;
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  .container__grid--item{
+      margin: 15px 0px;
+      padding: 30px;
+      box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  }
+ .content__form{
+     max-width: 480px;
+     width: 100%;
+ }
+  #emailAddress{
+      max-width: 300px;
+      width: 100%;
+  }
+  .container.contact{
+      flex-direction: column;
+  }
+  .content{
+      margin: 10px 0px;
+  }
+}

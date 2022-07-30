@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="notes">
+        <head>
+            <div class="container">
+                <div class="logo">
+                    <i class="fas fa-sticky-note"></i>
+                    <h4>Sticky Notes</h4>
+                </div>
+                <a href="#" class="btn" id="btn-onclick">Add Note</a>
+            </div>
+        </head>
+        <div class="container2"></div> 
+        <div class="overlay">
+          <div class="box-inner">
+          <textarea placeholder="Note..." id="note-text" class="box"></textarea>
+          <i id="modal-close" class="far fa-times-circle"></i>
+          </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

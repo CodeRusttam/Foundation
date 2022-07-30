@@ -1,0 +1,17 @@
+.general-incrident-text {
+  font-family: 'Poppins';
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  list-style: none;
+  color: inherit;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+i {
+  font-style: italic;
+  font-size: 14px;
+}
+/*# sourceMappingURL=general.css.map */

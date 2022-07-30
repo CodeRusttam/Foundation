@@ -1,0 +1,30 @@
+$constcolor:#fbc941;
+$constcolor2:#e1a02a;
+$colorhite:#fff;
+$colorgrey:#777;
+$colordark:#212529;
+$colordark2:#333;
+$boxshadowcolor:#8282;
+
+// for margin and padding dimension will be used this size's.
+$spacing-reset:0px;
+$spacing-x:5px;
+$spacing-2x:$spacing-x*2;
+$spacing-3x:$spacing-x*3;
+$spacing-4x:$spacing-x*4;
+$spacing-5x:$spacing-x*5;
+$spacing-6x:$spacing-x*6;
+$spacing-7x:$spacing-x*7;
+$spacing-8x:$spacing-x*8;
+$spacing-9x:$spacing-x*9;
+$spacing-10x:$spacing-x*10;
+$spacing-16x:$spacing-x*16;
+$spacing-18x:$spacing-x*18;
+$spacing-20x:$spacing-x*20;
+
+// for size which will be used everywhere
+$size-reset:0px;
+$size-font:12px;
+$size-2font:$size-font*2;
+$size-3font:$size-font*3;
+$size-4font:$size-font*4;

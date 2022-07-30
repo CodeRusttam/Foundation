@@ -1,0 +1,222 @@
+.container {
+  width: 1248px;
+  margin: auto;
+}
+
+.flex, .container, .section_top_top_content_right_menu, .section_top_middle_search_content, .section_top_middle_icons_content, .section_top_middle_icons_content i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-center, .container, .section_top_middle_search_content {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.align-items, .container, .section_top_middle_search_content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.justify-content, .section_top_middle_icons_content {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.direction, .section_top_middle_icons_content i {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.general-incrident-text {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  list-style: none;
+  color: #777;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: 'Poppins';
+}
+
+.general-incrident-text:hover {
+  color: #fbc941;
+}
+
+ul {
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+i {
+  font-style: italic;
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: 100;
+  color: #333;
+  text-align: center;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+i:hover {
+  color: #fbc941;
+}
+
+hr {
+  width: 1248px;
+  margin: auto;
+  -webkit-margin-before: 13px;
+          margin-block-start: 13px;
+  opacity: 0.2;
+}
+
+.btn {
+  border: none;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  color: #212529;
+  padding: 11px 25px;
+  background-color: #fbc941;
+}
+
+.section_top_top {
+  position: relative;
+}
+
+.section_top_top_content {
+  padding: 15px 0px;
+}
+
+.section_top_top_content_left_contact span {
+  margin-left: 10px;
+}
+
+.general-incrident-text.section_top_top_right_li.english {
+  margin-right: 30px;
+}
+
+.general-incrident-text.section_top_top_right_li.usd {
+  margin-right: 30px;
+}
+
+.section_top_top_right_li i {
+  margin-left: 5px;
+}
+
+.section_top_right_li_usd_drop-down {
+  position: absolute;
+  top: 73%;
+  left: 76%;
+  background-color: #fff;
+  -webkit-box-shadow: 3px 1px 3px 1px #8282;
+          box-shadow: 3px 1px 3px 1px #8282;
+  display: none;
+}
+
+.section_top_right_li_english_drop-down {
+  position: absolute;
+  top: 73%;
+  left: 82%;
+  background-color: #fff;
+  -webkit-box-shadow: 3px 1px 3px 1px #8282;
+          box-shadow: 3px 1px 3px 1px #8282;
+  display: none;
+}
+
+.section_top_right_li_usd_drop-menu {
+  margin: 10px 10px 10px 10px;
+}
+
+.general-incrident-text.section_top_right_li_usd_drop-menu.li {
+  margin: 10px 0px;
+}
+
+.section_top_middle_search_content {
+  border: 1px solid #fbc941;
+  position: relative;
+  height: 40px;
+}
+
+.section_top_middle_search_content::after {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 1px;
+  left: 40%;
+  background: #777;
+  opacity: 0.3;
+}
+
+.section_top_middle_search_content .general-incrident-text i {
+  margin-left: 30px;
+}
+
+.general-incrident-text.department {
+  margin-left: 20px;
+}
+
+.section_top_middle_icons_content i {
+  position: relative;
+  font-size: 20px;
+  margin: 0px 10px;
+}
+
+.section_top_middle_icons_content span {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #212529;
+}
+
+.section_top_middle_icons_content_icon_absolute_div {
+  position: absolute;
+  right: 15%;
+  top: -12%;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #fbc941;
+}
+
+.section_top_middle_icons_content_icon_absolute_div_card {
+  position: absolute;
+  right: -15%;
+  top: -12%;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #fbc941;
+}
+
+.section_top_middle_icons_content_icon_absolute_div span {
+  font-size: 10px;
+  position: absolute;
+  top: -10%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: small;
+  color: #fff;
+}
+
+.section_top_middle_icons_content_icon_absolute_div_card span {
+  font-size: 10px;
+  position: absolute;
+  top: -10%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: small;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

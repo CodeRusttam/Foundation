@@ -1,0 +1,45 @@
+.general-incrident-text{
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    list-style: none;
+    color: $colorgrey;
+    font-weight: 400;
+    font-size: $spacing-3x;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+.general-incrident-text:hover{
+    color: $constcolor;
+}
+ul{
+    padding-inline-start: 0px;
+}
+i{
+    font-style: italic;
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: 100;
+    color: $colordark2;
+    text-align: center;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    &:hover{
+        color: $constcolor;
+    }
+}
+hr{
+    width: 1248px;
+    margin: auto;
+    margin-block-start: 13px;
+    opacity: 0.2;
+}
+.btn{
+    border: none;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    color: $colordark;
+    padding: 11px $spacing-5x;
+    background-color: $constcolor;
+}

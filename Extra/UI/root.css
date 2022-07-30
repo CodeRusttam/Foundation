@@ -1,0 +1,9 @@
+:root{
+ --color-nav:rgba(255, 255, 255, 0.5);
+ --color-blue:#64a19d;
+ --color-white:#fff;
+ --bs-light-rgb:rgb(248, 249, 250);
+ --bs-bg-opacity:rgb(248, 249, 250);
+ --bg-black:rgb(0,0,0);
+ --social-black:rgba(255,255,255,0.1);
+}

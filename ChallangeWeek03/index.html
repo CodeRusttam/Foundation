@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="home">
+       <div class="quiz__container--home">
+            <h1>TRIVIA <br>QUIZ</h1>
+            <button id="btn">START
+                <i id="start" class="far fa-play-circle"></i>
+            </button>
+            <h5>High Score:20</h5>
+       </div>
+    </section>
+<section id="Questions">
+    <div class="quiz__container--questions">
+        <div class="quiz__container--questions--top">
+           <div class="quiz__container--questions--top--score--content">
+               <h4 id="score">Score</h4>
+               <span>0</span>
+           </div>
+           <div class="quiz__container--questions--top--chance--content">
+              <h4>Lifes</h4>
+              <div class="dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+              </div>
+        </div>
+        <div class="quiz__container--questions--top--down--line">
+            <div class="line"></div>
+             <div class="circle-content">
+             </div>
+         </div>
+        </div>
+        <div class="question-container">
+            <h2 id="question"></h2>
+             <div class="question-container-center--line">
+                 <span  id ="line" class="center-line"></span>
+             </div>
+             <div class="list-question">
+          <button class="button" id="btns0"><span id="choice0"></span></button>
+          <button  class="button" id="btns1"><span id="choice1"></span></button>
+          <button  class="button" id="btns2"><span id="choice2"></span></button>
+          <button   class="button" id="btns3"><span id="choice3"></span></button>
+             </div>
+        </div>
+    </div>
+    
+</section>
+<section id="gameover">
+    <div class="gameover-container">
+        <h1>GAME OVER</h1>
+        <div class="score">
+            <h5>Score</h5>
+           <span id="counter">0</span>
+        </div>
+        <div class="gameover-footer">
+            <button id ="homepage" class="btn btn-check">Home</button>
+            <button  id = "restart" class="btn btn-check">Retry</button>
+        </div>
+    </div>
+</section>
+<script src="quiz_controller.js"></script>
+<script src="question.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
